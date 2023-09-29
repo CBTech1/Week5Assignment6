@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div>
+    <header>
+      <nav>
+        <a
+          href="https://www.cat-bounce.com/"
+        >
+          Check out this enjoyable cat site
+        </a>
+      </nav>
+    </header>
+    <main>
+      <strong>
+         
+        <p>
+          salut mon amie, cest next.js ici. 
+        </p>
+      </strong>
+      <h1>
+         Some professions from different JS file but
+      </h1>
+      <h1>
+         using the same json file with new bootstrap classname
+      </h1>
+      <div
+        class="navbar navbar-light bg-light"
+      />
+      <br />
+      <h2>
+         (Origional file) Names in my list:
+      </h2>
+      <div
+        class="list-group"
+      />
+    </main>
+    <footer>
+      <h3>
+        Huge Footer
+      </h3>
+    </footer>
+  </div>
+</div>
+`;

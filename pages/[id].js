@@ -24,9 +24,20 @@ export default function Entry({itemData}){
       <Conception>
 <article className="card col-6">
   <div className="card-body">
-    <h5 className="card-title">name: {itemData.name}</h5>
-    <h6 className="card-subtitle mb-2 text-muted">age: {itemData.age}</h6>
+    <h4 className="card-title">name: {itemData.name}</h4>
+    <h5 className="card-subtitle mb-2 text-muted">age: {itemData.age}</h5>
     <p className="card-text">profession: {itemData.profession}</p>
+    <h6>Hobbies: </h6> 
+    <ol>
+      {itemData.hobbies && itemData.hobbies.map(
+            ({id, hobby}) => (
+             <li key={id}>
+               {hobby}
+             </li>
+            )
+          )
+        }
+      </ol>
   </div>
 </article>
       </Conception>
